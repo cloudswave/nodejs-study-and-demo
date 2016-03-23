@@ -1,0 +1,59 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'ez-cli/' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'ez-cli/', null ]
+6 verbose cache add name=undefined spec="ez-cli/" args=["ez-cli/",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'ez-cli/',
+7 verbose parsed url   path: 'ez-cli/',
+7 verbose parsed url   href: 'ez-cli/' }
+8 silly lockFile 01cec55d-ez-cli ez-cli/
+9 verbose lock ez-cli/ /home/ethanzhu/.npm/01cec55d-ez-cli.lock
+10 info maybeGithub Attempting ez-cli/ from git://github.com/ez-cli/
+11 silly lockFile 413c1569-git-github-com-ez-cli git://github.com/ez-cli/
+12 verbose lock git://github.com/ez-cli/ /home/ethanzhu/.npm/413c1569-git-github-com-ez-cli.lock
+13 verbose addRemoteGit [ 'git://github.com/ez-cli/', 'master' ]
+14 verbose git clone git://github.com/ez-cli/ 克隆到裸版本库 '/home/ethanzhu/.npm/_git-remotes/git-github-com-ez-cli--413c1569'...
+14 verbose git clone git://github.com/ez-cli/ fatal: remote error:
+14 verbose git clone git://github.com/ez-cli/   Repository not found.
+15 silly lockFile 413c1569-git-github-com-ez-cli git://github.com/ez-cli/
+16 silly lockFile 413c1569-git-github-com-ez-cli git://github.com/ez-cli/
+17 info maybeGithub Attempting ez-cli/ from git+ssh://git@github.com:ez-cli/
+18 silly lockFile 6e4910c5-git-github-com-ez-cli git@github.com:ez-cli/
+19 verbose lock git@github.com:ez-cli/ /home/ethanzhu/.npm/6e4910c5-git-github-com-ez-cli.lock
+20 verbose addRemoteGit [ 'git@github.com:ez-cli/', 'master' ]
+21 error git clone git@github.com:ez-cli/ 克隆到裸版本库 '/home/ethanzhu/.npm/_git-remotes/git-github-com-ez-cli--6e4910c5'...
+21 error git clone git@github.com:ez-cli/ Warning: Permanently added the RSA host key for IP address '192.30.252.129' to the list of known hosts.
+21 error git clone git@github.com:ez-cli/ Permission denied (publickey).
+21 error git clone git@github.com:ez-cli/ fatal: Could not read from remote repository.
+21 error git clone git@github.com:ez-cli/
+21 error git clone git@github.com:ez-cli/ Please make sure you have the correct access rights
+21 error git clone git@github.com:ez-cli/ and the repository exists.
+22 silly lockFile 6e4910c5-git-github-com-ez-cli git@github.com:ez-cli/
+23 silly lockFile 6e4910c5-git-github-com-ez-cli git@github.com:ez-cli/
+24 silly lockFile 01cec55d-ez-cli ez-cli/
+25 silly lockFile 01cec55d-ez-cli ez-cli/
+26 error addLocal Could not install ez-cli/
+27 error Error: ENOENT, stat 'ez-cli/'
+28 error If you need help, you may report this *entire* log,
+28 error including the npm and node versions, at:
+28 error     <http://github.com/npm/npm/issues>
+29 error System Linux 3.13.0-32-generic
+30 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "ez-cli/"
+31 error cwd /home/ethanzhu/work/git/ez-cli
+32 error node -v v0.10.37
+33 error npm -v 1.4.28
+34 error path ez-cli/
+35 error code ENOENT
+36 error errno 34
+37 verbose exit [ 34, true ]
